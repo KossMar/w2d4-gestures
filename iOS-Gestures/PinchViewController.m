@@ -32,10 +32,10 @@
 
 
 -(void)viewPinched: (UIPinchGestureRecognizer*)sender {
-//    CGFloat scale = sender.scale;
-//    sender.view.transform = CGAffineTransformMakeScale(scale, scale);
-//
-//    scale = 1.0;
+    CGFloat scale = sender.scale;
+    sender.view.transform = CGAffineTransformMakeScale(scale, scale);
+
+    scale = 1.0;
     
 }
 
