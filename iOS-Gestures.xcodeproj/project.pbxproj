@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D32BC2F1F9074DA00345EC4 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32BC2E1F9074DA00345EC4 /* SwipeViewController.m */; };
+		0D32BC321F90863600345EC4 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32BC311F90863600345EC4 /* RotateViewController.m */; };
 		0DDE85171F8FF7450002392E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE85161F8FF7450002392E /* AppDelegate.m */; };
 		0DDE851A1F8FF7450002392E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE85191F8FF7450002392E /* FirstViewController.m */; };
 		0DDE851D1F8FF7450002392E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE851C1F8FF7450002392E /* SecondViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		0D32BC2D1F9074DA00345EC4 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		0D32BC2E1F9074DA00345EC4 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		0D32BC301F90863600345EC4 /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		0D32BC311F90863600345EC4 /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 		0DDE85121F8FF7450002392E /* iOS-Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDE85151F8FF7450002392E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DDE85161F8FF7450002392E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				0DDE851E1F8FF7450002392E /* Main.storyboard */,
 				0DDE854A1F9003460002392E /* PinchViewController.h */,
 				0DDE854B1F9003460002392E /* PinchViewController.m */,
+				0D32BC301F90863600345EC4 /* RotateViewController.h */,
+				0D32BC311F90863600345EC4 /* RotateViewController.m */,
 				0DDE85211F8FF7450002392E /* Assets.xcassets */,
 				0DDE85231F8FF7450002392E /* LaunchScreen.storyboard */,
 				0DDE85261F8FF7450002392E /* Info.plist */,
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DDE851D1F8FF7450002392E /* SecondViewController.m in Sources */,
+				0D32BC321F90863600345EC4 /* RotateViewController.m in Sources */,
 				0DDE85171F8FF7450002392E /* AppDelegate.m in Sources */,
 				0DDE854C1F9003460002392E /* PinchViewController.m in Sources */,
 				0D32BC2F1F9074DA00345EC4 /* SwipeViewController.m in Sources */,
